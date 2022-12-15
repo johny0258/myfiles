@@ -1,0 +1,636 @@
+@import url('../assets/css');
+/*Temp*/
+.topMenu li.social a, .logo {
+	/*color: #fff;*/
+}
+/*End Temp*/
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	text-decoration: none;
+}
+body, h1, h2, h3, h4, h5, h6, .meta2 .title span.main, .widget .title, .widgetList li, .footer .headline, .comment, .lit {
+	font-family: Georgia, sans-serif;
+}
+body {
+	font-size: 11pt;
+	background-color: #f9f8f6;
+	color: #4a4a4a;
+}
+li {
+	list-style: none;
+	display: inline-block;
+	vertical-align: middle;	
+}
+p {
+	line-height: 1.8;
+}
+h1, h2, h3, h4, h5, h6, .meta2 .title span.main, .widget .title, .widgetList li, .footer .headline, .comment, .lit, .mainMenu a, .rabatt, .title {
+	font-style: italic;
+}
+.header .logo, .topMenu .subMenu, .searchBar, .mainMenu, .subTitle, .author, .portrait, .name, .meta2 .title, .mainContent, .footer .headline, .footer .email, .headerTab .logo, .headerTab2 .menuSmall {
+	float: left;
+}
+div.topMenu, .searchForm, .search, .rabatt, .date, .meta .social, .meta2 .social, .sidebar, .menuSmall, .searchTab, .searchTab2, .socialTab {
+	float: right;
+}
+.comment span, li {
+	position: relative;
+}
+a {
+	color: #4a4a4a;
+}
+a.active, .active, a:hover, .comment span, .mainContent a  {
+	color: #e3191a !important;
+}
+.clear {
+	clear: both;
+}
+.footer .headline, .footer .email {
+	width: 50%;
+}
+.container, .sidebutton {	
+	margin: 0 auto;
+}
+.container {
+	max-width: 1024px;
+	padding: 0 10px;
+}
+#meta .social span, .meta2 .social span, .botMenu li, .myprogress li::before, .fbcomments li::before, .fbcomments .right, .myprogress .right {
+	display: inline-block;
+}
+.subMenu .social a, .mainMenu a, .rabatt, .breadcrumbs, .imgCaption span, .menuSmall li, .fbcomments span, .meta2 .title span, .contentList li, .socialTab a, .sidebutton {
+	display: block;
+}
+.header.sticky {
+	position: fixed;
+	top: 0;
+	width: 100%;
+	padding-top: 0;
+	z-index: 1;
+}
+.header.sticky .logo, .header.sticky .topMenu, .sticky3 {
+	display: none;
+}
+#meta .author {
+	margin-right: 50px;
+}
+#meta .social, .meta2 .social {
+	width: 100%;
+	max-width: 502px;
+}
+#meta, .imgCaption {
+	border-top: 1px solid #d3cdc1;
+	border-bottom: 1px solid #d3cdc1;
+}
+.meta2 .title span.sub, .imgCaption .src {
+	color: #9b96a7;
+}
+.subMenu li, .main, .meta2 .title span.sub, .mainContent h3, .meta2 .social, .botMenu li, .credit, .progress h1, .progress h2, .email input, .email button, .resMenu li {
+	font-family: 'Lato', sans-serif;
+}
+.meta2 .title span.main, .contentDescription, .footer .headline, .comment span, .lit {
+	letter-spacing: -0.03em;	
+}
+.sticky + .main {
+	padding-top: 150px;
+}
+.header {
+	padding-top: 10px;
+	background: #fff;
+	border-bottom: 1px solid #4a4a4a;
+	-webkit-box-shadow: 0 3px 2px 0 rgba(172,172,172,0.52);
+	box-shadow: 0 3px 2px 0 rgba(172,172,172,0.52);
+}
+.header .logo {
+	width: 86px;
+	height: 97px;
+	background-position: 0 -337px;
+}
+.topMenu {
+	margin: 10px 0;
+}
+.topMenu .subMenu {
+	margin-right: 40px;
+}
+.subMenu li {
+	letter-spacing: 0.17px;
+}
+.subMenu li.social {	
+	margin: 0 6px;
+}
+.subMenu .social a {
+	width: 17px;
+	height: 17px;
+}
+.subMenu .text a {
+	margin: 0 8px;
+}
+.sprite-icons, .sprite-icons a, .rabatt, .widgetList li::before, .comment span::before {background-image: url(../assets/sprite-icons.png);}
+.sprite-icons.facebook a {background-position: -127px -21px;}
+.sprite-icons.pinterest a {background-position: -163px -21px;}
+.sprite-icons.twitter a {background-position: -196px -21px;}
+.sprite-icons.youtube a {background-position: -227px -21px;}
+.sprite-icons.instagram a {background-position: -259px -21px;}
+.searchBar {
+	padding: 1px 5px;
+	max-width: 90px;
+}
+.search, .searchTab2 {
+	margin: 1px 5px;
+	width: 19px;
+	height: 19px;
+	background-position: -421px -20px;
+}
+.mainMenuBox {
+	border-top: 1px solid #f4f3f0;
+}
+.mainMenu a, .rabatt {
+	padding: 10px 7px;
+	font-size: 1.2em;
+}
+.rabatt, .topli li {
+	padding-left: 30px;
+}
+.rabatt {
+	background-position: -351px -95px;
+}
+.mainMenu .home a {
+	width: 14px;
+	height: 15px;
+	background-position: 0 -104px;
+}
+.breadcrumbs {
+	margin: 15px 0;
+	font-size: .9em;
+}
+.subTitle {
+	font-size: 1.2em;
+	text-transform: uppercase;
+}
+.titleIntro .title, .meta2 .title span.sub, .mainContent a, .email button, .myprogress a, .fbcomments span {
+	font-weight: 700;	
+}
+.titleIntro .title {
+	font-family: initial;
+	font-size: 3.2em;
+	letter-spacing: -0.02em;
+}
+.portrait {
+	margin: 5px 10px 5px 0;
+	width: 48px;
+	height: 48px;
+	background-position: -97px -337px;
+	border-radius: 50%;
+}
+.name {
+	line-height: 48px;
+}
+#meta .social, .meta2 .social {
+	border-left: 1px solid #d3cdc1;
+	height: 30px;
+	line-height: 30px;
+	margin: 12px 0;
+	padding: 0 10px;
+}
+#meta .social span, .meta2 .social span {
+	width: 26px;
+	height: 26px;
+	vertical-align: middle;
+	margin: 0 12px;
+}
+.social .fb {background-position: -24px -280px}
+.social .pn {background-position: -99px -280px}
+.social .tw {background-position: -184px -283px}
+.social .msg {background-position: -266px -279px}
+.social .mail {background-position: -322px -281px}
+.social .print {background-position: -378px -282px}
+.meta2 {
+	position: fixed;
+	top: 43px;
+	width: 100%;
+	background: #f9f8f6;
+	border-bottom: 1px solid #d3cdc1;
+	-webkit-box-shadow: 0 4px 8px 0 rgba(0,0,0,0.15);
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.15);
+}
+.meta2 .social {
+	padding: 0 5px;
+}
+.meta2 .title {
+	margin-top: 7px;
+}
+.meta2 .title span.sub, .progress h1, .progress h2, .offer h1 {
+	font-style: normal;
+}
+.meta2 .title span.main, .fbcomments span.text, .fbcomments span.time {	
+	font-weight: 500;
+}
+.meta2 .title span.main {
+	font-size: 1.2em;
+}
+.content img {
+	padding: 10px 0;
+}
+.contentDescription {
+	font-weight: 500;
+	padding: 20px 0 30PX;
+}
+.mainContent {
+	width: 66%;
+}
+.mainContent a:hover, .myprogress a {
+	text-decoration: underline;
+}
+.searchBar, .mainContent p, .mainContent p b, .mainContent h3, .contentList li, .mainContent i, .email input, .fbcomments span.text, .resMenu li {
+	color: #000;
+}
+.mainContent p, .mainContent h2, .contentList li, .titleIntro .title, .progress h1 {
+	margin-bottom: 15px;
+}
+.mainContent h3 {
+	font-style: normal;
+	font-size: 1.4em;
+	margin: 20px 0 10px;
+}
+.imgCaption .src, .imgCaption .caption, .name, .meta2 .title span.sub, .meta2 .social {
+	font-size: 0.9em;
+}
+.imgCaption, .progress h2, .myprogress li {
+	margin-bottom: 10px;
+}
+.imgCaption span {
+	margin: 8px 0;
+}
+.progress {
+	padding: 10px;
+	background-color: #e3191a;
+}
+.headerTab, .headerTab2, .topli li::before, .footer {
+	background-color: #fff;
+}
+.progress li::before, .fbcomments li::before {
+	content: "";
+}
+.topli li::before {
+	position: absolute;
+	top: 10px;
+	left: 10px;
+	width: 10px;
+	height: 10px;
+	border-radius: 50%;
+}
+li.prog1::before {background-image: url(../assets/baweek1.jpg);}
+li.prog2::before {background-image: url(../assets/baweek2.jpg);}
+li.prog3::before {background-image: url(../assets/baweek3.jpg);}
+li.prog4::before {background-image: url(../assets/baweek4.jpg);}
+.myprogress li {
+	padding: 10px;
+	background-color: rgba(255, 255, 255, 0.1);
+}
+.myprogress li::before {	
+	width: 165px;
+	height: 231px;
+	margin-right: 10px;
+	background-size: 100%;
+	background-repeat: no-repeat;
+}
+.myprogress li .right {
+	width: calc(100% - 185px);
+	vertical-align: top;
+}
+.myprogress h3 {
+	margin-top: 5px;
+}
+.contentList {
+	margin: 25px 0;
+	padding: 25px;
+	background-color: #f4f3f0;
+}
+.contentList li {
+	border-bottom: 1px solid #d3cdc1;
+	padding-left: 40px;
+	padding-bottom: 15px;
+}
+.contentList li::before {
+	content: "\2022";
+	position: absolute;
+	width: 10px;
+	height: 10px;
+	left: 0;
+	font-size: 25px;
+	color: #d3cdc1;
+	top: -8px;
+}
+.contentList li:last-child {
+	border-bottom: 0;
+	margin-bottom: 0;
+	padding-bottom: 0;
+}
+ol.contentList li {
+	list-style: initial;
+}
+.sidebar {
+	width: calc(33% - 30px);
+	margin-left: 30px;
+}
+.widget .title {
+	font-size: 2em;
+	margin: 20px 0 15px;
+	padding: 15px 0;
+	border-top: 1px solid #d3cdc1;
+	border-bottom: 1px solid #d3cdc1;
+}
+.widgetList li {
+	line-height: 1.8;
+	padding-left: 35px;
+	font-size: 1.1em;
+}
+.widgetList li::before {
+	background-position: 20px 0;
+	content: " ";
+	width: 20px;
+	height: 18px;
+	position: absolute;
+	left: 0;
+	top: 7px;
+}
+.footer .topMenu .subMenu {
+	margin-right: 0;
+}
+.footer .topMenu {
+	padding: 20px 0;
+}
+.footer .headline {
+	font-size: 1.4em;
+}
+.newsletter, .botMenu {
+	padding: 20px 0 13px;
+	border-bottom: 1px solid #979797;
+	border-top: 1px solid #979797;
+}
+.email input, .email button, .resMenu li {
+	font-style: italic;
+}
+.email input, .email button {
+	font-size: 1.2em;
+}
+.email input {
+	padding: 0 15px;
+	height: 47px;
+	width: calc(100% - 175px);
+	margin-right: 25px;
+	border: 2px solid #d3cdc1;
+}
+.email button, .progress h1, .progress h2, .progress h3, .progress p, .myprogress a, .offerfooter h1, .offerfooter h4, .myprogress a {
+	color: #fff !important;
+}
+.email button {
+	max-width: 150px;
+	width: 100%;
+	background-color: #e3191a;
+	border: 0;
+	color: #fff;
+	line-height: 47px;
+	cursor: pointer;
+}
+.resMenu {
+	padding: 30px 0;
+}
+.resMenu ul {
+	/*float: left;*/
+	display: grid;
+	grid-template-columns: auto auto auto auto auto auto;
+	grid-template-rows: auto auto auto auto auto auto;
+	grid-gap: 10px;
+	padding: 10px;
+}
+.resMenu li {
+	font-size: 0.9em;
+	letter-spacing: -0.03em;
+	line-height: 11px;
+}
+.botMenu, .comment, .offerheader h1, .offermain, .offerfooter, .sidebutton, .sidebar2 .title {
+	text-align: center;
+}
+.botMenu li, .credit {
+	font-size: 0.8em;
+	padding: 0 5px;
+}
+.comment {	
+	border-bottom: 1px solid #9b968b;
+	line-height: 0;
+	margin: 40px 0;
+}
+.comment span {
+	font-size: 1.8em;
+	background-color: #f9f8f6;
+	padding: 0 15px 0 60px;
+}
+.comment span::before {
+	content: " ";
+	position: absolute;
+	width: 26px;
+	height: 26px;
+	left: 20px;
+	top: 4px;
+	background-position: -266px -279px;
+}
+.headerTab {
+	z-index: 1;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	display: none;
+	padding: 5px 25px;
+	-webkit-box-shadow: 0 3px 2px 0 rgba(172,172,172,0.52);
+	box-shadow: 0 3px 2px 0 rgba(172,172,172,0.52);
+}
+.headerTab .logo, .headerTab2 .logo {
+	width: 47px;
+	height: 53px;
+	background-color: red;
+	background-position: 0 -181px;
+	background-size: 324px;
+}
+.menuSmall {
+	width: 25px;
+	margin: 15px 10px 10px;
+}
+.menuSmall li {
+	background-color: #e3191a;
+	height: 4px;
+	margin-bottom: 5px;
+	border-radius: 2px;
+}
+.menuSmall li:last-child {
+	margin-bottom: 0;
+}
+.socialTab {
+	margin-right: 10px;
+	margin-top: 13px;
+}
+.socialTab a {
+	width: 26px;
+	height: 26px;
+	margin: 0 10px;
+}
+.socialTab a.fb {background-position: -23px -224px;}
+.socialTab a.pn {background-position: -73px -224px;}
+.socialTab a.tw {background-position: -114px -224px;}
+.socialTab a.yt {background-position: -155px -224px;}
+.socialTab a.ig {background-position: -198px -224px;}
+.searchTab {
+	margin: 11px 20px 0;
+}
+.searchTab input {
+	height: 30px;
+	padding: 0 10px;
+	vertical-align: middle;
+}
+.searchTab button {
+	width: 30px;
+	height: 30px;
+	border: 0;
+	vertical-align: middle;
+	background-position: -445px -15px;
+}
+.textTab {
+	display: none;
+}
+.lit, .progress {
+	margin-bottom: 20px;
+}
+.lit {
+	display: none;
+	font-size: 1.3em;
+}
+.headerTab2 {
+	display: none;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	-webkit-box-shadow: 0 3px 2px 0 rgba(172,172,172,0.52);
+	box-shadow: 0 3px 2px 0 rgba(172,172,172,0.52);
+	z-index: 1;
+}
+.headerTab2 .logo {
+	position: absolute;
+	top: 0;
+	left: calc(50% - 30px);
+}
+.searchTab2 {
+	margin: 18px 20px 0 0;
+}
+.offer {
+	box-shadow: 0 0 5px rgba(0,0,0,0.5);
+}
+.offerheader, .offermain, .offerfooter {
+	padding: 15px;
+}
+.offerheader {
+	background-color: #3F51B5;
+	color: #fff;
+}
+.offerheader h1 {
+	margin: 5px 0 10px;
+}
+.offerheader h4, .fbcomments span.text {
+	margin: 5px 0;
+}
+.offermain h2 {
+	text-align: left;
+}
+.offerfooter {
+	background-color: #0e8cf0;
+	border-radius: 3px;
+}
+.fbcomments .right {
+	padding-bottom: 15px;
+	width: calc(100% - 60px);
+}
+.fbcomments span {
+	font-family: Arial, sans-serif;
+	font-size: 0.8em;
+}
+.fbcomments span.time {
+	display: initial;
+	font-size: 0.9em;
+	color: #515d6e;
+}
+.fbcomments span {
+	color: #3b5998;
+}
+.fbcomments li {
+	margin-top: 15px;
+	border-bottom: 1px solid #e2e2e2;
+}
+.fbcomments li.reply {
+	margin-left: 60px;
+}
+.fbcomments li::before {
+	margin-right: 10px;
+	width: 50px;
+	height: 50px;
+	background-image: url(../assets/sprite-fb-01.jpg);
+	vertical-align: top;
+}
+.fbcomments li.profilea::before {background-position: 0 0;}
+.fbcomments li.profileb::before {background-position: -50px 0;}
+.fbcomments li.profilec::before {background-position: -100px 0;}
+.fbcomments li.profiled::before {background-position: -150px 0;}
+.fbcomments li.profilee::before {background-position: -200px 0;}
+.fbcomments li.profilef::before {background-position: -250px 0;}
+.fbcomments li.profileg::before {background-position: -300px 0;}
+.fbcomments li.profileh::before {background-position: 0 -50px;}
+.fbcomments li.profilei::before {background-position: -50px -50px;}
+.fbcomments li.profilej::before {background-position: -100px -50px;}
+.fbcomments li.profilek::before {background-position: -150px -50px;}
+.fbcomments li.profilel::before {background-position: -200px -50px;}
+.fbcomments li.profilem::before {background-position: -250px -50px;}
+.fbcomments li.profilen::before {background-position: -300px -50px;}
+.fbcomments li.profileo::before {background-position: 0 -100px;}
+.fbcomments li.profilep::before {background-position: -50px -100px;}
+.fbcomments li.profileq::before {background-position: -100px -100px;}
+.sidebutton {
+	max-width: 80%;
+	padding: 10px;
+	background-color: #e1e1e1;
+	border: 1px solid #9e9e9e;
+}
+.sidebar2 {display: none;}
+.sidebar2 img {max-width: 320px;}
+@media only screen and (max-device-width: 989px) {
+	.headerTab, .sidebar2 {display: block;}
+	.sticky + .main {padding-top: 0;}
+	.main {padding-top: 80px !important;}
+	.container {padding: 5px 25px;}
+	.header, .breadcrumbs, .mainsidebar {display: none;}
+	.mainContent, .footer .headline, .footer .email {width: 100% !important;}
+	.headline, .email {float: initial;}
+	.headline {margin-bottom: 20px;}
+	.resMenu ul {grid-template-columns: auto auto auto auto;grid-template-rows: auto auto auto auto auto auto auto auto auto;}
+}
+@media only screen and (max-device-width: 639px) {
+	.resMenu ul {grid-template-columns: auto auto auto auto;grid-template-rows: auto auto auto auto auto auto auto auto auto;}
+	.textTab {display: inline-block;}
+	.subMenu .text, #meta .author, .headerTab, .resMenu, #meta .social .text {display: none !important;}
+	.footer .subMenu, .footer .topMenu {float: initial;}
+	.footer .topMenu {text-align: center;}
+	.lit, .headerTab2 {display: block;}
+	#meta .social {border-left: 0;}
+	.botMenu {border-top: 0;}
+	.email input {margin-right: 0;margin-bottom: 10px;width: 100%;display: block;}
+	.email button {max-width: initial;width: 100%;display: block;}
+	#meta .social {text-align: right;}
+	.titleIntro .title {font-size: 2.2em;}
+	.myprogress li::before {width: 125px;}
+	.myprogress li .right {width: calc(100% - 135px);}
+}
+@media only screen and (max-device-width: 385px) {
+	#meta .social span, .meta2 .social span {margin: 0 6px;}
+	.myprogress li::before {width: 80px;}
+	.myprogress li .right {width: calc(100% - 90px);}
+	.container {padding: 5px 10px;}
+}
